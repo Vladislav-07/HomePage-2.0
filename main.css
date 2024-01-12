@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tsparticles {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: rgba(17, 17, 19, 1);
+  /* min-height: 100vh; */
+  overflow: hidden;
+  scroll-behavior: smooth;
+  font-family: HELLOIMVLAD-castomize;
+}
+
+@font-face {
+  font-family: HELLOIMVLAD-castomize;
+  src: url(../fonts/ofont.ru_Geologica.ttf);
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  /* border: 5px solid red; */
+  width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100vw;
+  padding: 1.5rem;
+  /* border: 3px solid green; */
+  position: fixed;
+  z-index: 9999;
+  top: -0.01%;
+  /* background-color: transparent; */
+  backdrop-filter: blur(5px);
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul li a {
+  position: relative;
+  color: white; /*#c31a1a*/
+  padding: 1rem;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all .4s;
+}
+
+ul li a:hover {
+  background-color: #ae1a20;
+}
+
+ul {
+  list-style: none;
+}
+
+.index-section {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+.home-section {
+  /* border: 3px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  /* margin-top: 15%; */
+}
+
+.name {
+  color: white;
+  font-size: 60px;
+}
+
+.nameSup {
+  color: white;
+  font-size: 40px;
+}
+
+.logo {
+  max-width: 22rem;
+  /* border: 2px solid white; */
+}
+
+.about-section {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* margin-top: 10%; */
+  /* padding: 330px; */
+  color: white;
+}
+
+.aboutTitle {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text-container {
+  /* border: 2px solid white; */
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.stack-section {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.stackTitle {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.item-conteiner {
+  border: 3px solid transparent;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 2fr));
+  width: 50%;
+  margin: 0 auto 0;
+  text-align: center;
+  color: white;
+}
+
+.item {
+  height: 250px;
+  padding-top: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.item img {
+  margin-bottom: 20px;
+}
+
+.html-item-conteiner {
+  border: 3px solid #F1672C;
+}
+
+.css-item-conteiner {
+  border: 3px solid #0277BD;
+}
+
+.js-item-conteiner {
+  border: 3px solid #FFD600;
+}
+
+.github-item-conteiner {
+  border: 3px solid #EEEEEE;
+}
+
+.projects-section {
+  /* border: 2px solid yellow; */
+  width: 100%;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projectTitle {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin-top: 250px;
+}
+
+.project-card-container {
+  max-width: 80%;
+  margin: 0 auto 0;
+  padding: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.card {
+  margin: 10px;
+  border: 5px solid #ae1a20;
+  border-radius: 10px;
+}
+
+.card-info {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.card img {
+  margin-bottom: 20px;
+  border-bottom: 5px solid #ae1a20;
+  width: 100%;
+}
+
+/* ОРИГ НАСТРОЙКИ */
+
+.grid-container {
+  width: 50%;
+  gap: 2rem;
+  border: 3px solid transparent;
+}
+
+.items-conteiner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 2fr));
+  text-align: center;
+  color: white;
+}
+
+.item {
+  height: 250px;
+  padding-top: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.item img {
+  margin-bottom: 20px;
+}
+
+.html-item-conteiner {
+  border: 3px solid #F1672C;
+}
+
+.css-item-conteiner {
+  border: 3px solid #0277BD;
+}
+
+.js-item-conteiner {
+  border: 3px solid #FFD600;
+}
+
+.github-item-conteiner {
+  border: 3px solid #EEEEEE;
+}
