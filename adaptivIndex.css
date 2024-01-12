@@ -129,10 +129,26 @@
 
 }
 
+@media screen and (max-width: 375px) {
+  
+  .stackTitle {
+    margin-top: 300px;
+  }
+
+  .projects-section {
+    margin-top: 55%;
+  }
+
+}
+
 @media screen and (max-width: 350px) {
   
   .stack-section {
     height: 150vh;
+  }
+
+  .stackTitle {
+    margin-top: 0px;
   }
 
   .item {
@@ -154,11 +170,11 @@
 @media screen and (max-width: 320px) {
   
   .stackTitle {
-    margin-top: -80px;  
+    margin-top: 50px;
   }
 
   .projects-section {
-    margin-top: -40%;
+    margin-top: -20%;
   }
 
 }
