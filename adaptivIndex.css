@@ -61,7 +61,7 @@
   }
 
   .name-container {
-    margin-top: 100px;
+    margin-top: -70px;
   }
 
   .name {
@@ -125,6 +125,18 @@
 
   .projects-section {
     margin-top: 10%;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  
+  .stackTitle {
+    margin-top: 200px;
+  }
+
+  .projects-section {
+    margin-top: 80%;
   }
 
 }
