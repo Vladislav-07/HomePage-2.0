@@ -154,7 +154,7 @@
 @media screen and (max-width: 320px) {
   
   .stackTitle {
-    margin-top: 70px;
+    margin-top: -80px;  
   }
 
   .projects-section {
