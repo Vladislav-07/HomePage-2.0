@@ -11,7 +11,6 @@
 
 body {
   background-color: rgba(17, 17, 19, 1);
-  /* min-height: 100vh; */
   overflow: hidden;
   scroll-behavior: smooth;
   font-family: HELLOIMVLAD-castomize;
@@ -19,7 +18,7 @@ body {
 
 @font-face {
   font-family: HELLOIMVLAD-castomize;
-  src: url(../fonts/ofont.ru_Geologica.ttf);
+  src: url(fonts/ofont.ru_Geologica.ttf);
 }
 
 .wrapper {
@@ -46,7 +45,6 @@ body {
   position: fixed;
   z-index: 9999;
   top: -0.01%;
-  /* background-color: transparent; */
   backdrop-filter: blur(5px);
 }
 
@@ -96,7 +94,6 @@ section {
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
-  /* margin-top: 15%; */
 }
 
 .name {
@@ -121,8 +118,6 @@ section {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  /* margin-top: 10%; */
-  /* padding: 330px; */
   color: white;
 }
 
