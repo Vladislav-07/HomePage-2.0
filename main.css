@@ -45,7 +45,7 @@ body {
   position: fixed;
   z-index: 9999;
   top: -0.01%;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 }
 
 .navigation {
